@@ -1,0 +1,25 @@
+2. Solve : Using latest Java 8 API
+
+
+1.Create int[] ---> IntStream & display its contents.
+
+2. Create AL<Integer> , populate it.
+Convert it to seq stream & display elems
+Convert it to parallel stream & display elems
+ 
+3. Create stream of ints between the range supplied by user & display all multiples of 3
+(Hint : IntStream methods --range,filter,forEach)
+ 
+4. Display all product names of a particular category , exceeding specific price.
+I/P category name & price.
+(stream,filter,forEach)
+ 
+5.Create IntStream having ints in the range of 10...50
+& Print its sum.(specialized reduction operation)
+Hint( rangeClosed , sum)
+ 
+6.Print avg of 10-50 numbers(if strm is empty print -100 or else print avg)
+(rangeClosed,average & optional)
+ 
+7.Print avg of square of odd nums between 10 & 50 
+(filter,map,reduce)
